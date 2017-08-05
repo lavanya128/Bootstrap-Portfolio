@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("assets/images/concrete_seamless.png");
+  background: url("../images/concrete_seamless.png");
   height: 100%;
 }
 
@@ -12,7 +12,7 @@ body {
 	background-color: white;
 }
 
-.navbar-brand{
+.navbar-brand1{
 	background-color: teal;
 	font-family:'Georgia', Times, 'Times New Roman', serif;
 	height: 80px;
@@ -61,8 +61,7 @@ h1{
 
 .work img {
   width: 100%;
-  border: 0 none;
-  opacity: 0.8;
+    opacity: 0.8;
 }
 
 .work h3 {
@@ -113,5 +112,29 @@ footer,
   background: #666;
   border-top: 8px solid #4aaaa5;
    
+  }
+
+  .navbar-default .navbar-brand
+  {
+    color: white;
+  }
+
+  .panel-body{
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+
+  .col-md-4{
+    margin-top: 30px;
+    margin-left: 0;
+      }
+
+  .col-md-5{
+    margin-top: 30px;
+    margin-left: 0;
+      }
+
+  .col-md-7
+  {float: left;
   }
 
