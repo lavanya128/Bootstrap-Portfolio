@@ -114,8 +114,7 @@ footer,
    
   }
 
-  .navbar-default .navbar-brand
-  {
+  .navbar-default .navbar-brand{
     color: white;
   }
 
@@ -135,6 +134,47 @@ footer,
       }
 
   .col-md-7
-  {float: left;
+  {
+    float: left;
   }
 
+  @media screen and (max-width: 768px)
+  {
+    .navbar-right{
+      float: left;
+      width: 100%;
+    }
+     .collapse
+    {
+     width: 100%; 
+    }
+
+    #bs-example-navbar-collapse-1
+    {
+      width: 100%;
+    }
+    .navbar-collapse
+    {
+      width: 100%;
+      float: left;
+    }
+  }
+
+@media screen and (max-width: 640px)
+  {
+    .collapse
+    {
+     width: 100%; 
+    }
+    #bs-example-navbar-collapse-1
+    {
+      display: block;
+      width: 100%;
+    }
+    .navbar-collapse
+    {
+      width: 100%;
+      float: left;
+    }
+  }
+  
